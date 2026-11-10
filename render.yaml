@@ -2,7 +2,7 @@ services:
   - type: web
     name: vietsubminecratf
     runtime: docker
-    plan: starter
+    plan: free
     healthCheckPath: /healthz
     envVars:
       # Mat khau may chu (nhieu mat khau thi ngan cach bang dau |)
